@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinica Dental</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo y mensaje -->
+        <div class="header">
+            <img src="imagene/logo.jpeg" alt="Logo Nahuayoli" class="logo">
+            <h1 class="mensaje">¡Tu sonrisa en las mejores manos!</h1>
+        </div>
+
+        <!-- Botones de inicio y registro -->
+        <div class="botones">
+            <button onclick="showLogin()" class="btn">INICIA SESIÓN</button>
+            
+        </div>
+
+        <!-- Formulario de inicio de sesión -->
+        <div id="loginForm" class="formulario oculto">
+            <h2>BIENVENIDO</h2>
+            <h5>Ingrese sus datos</h5>
+            <input type="text" placeholder="Nombre de usuario" class="input">
+            <input type="password" placeholder="Contraseña" class="input">
+            <!--Botón que abre el dahboard-->
+            <button class="btn" onclick="window.location.href='dashboard.html'">INICIA SESIÓN</button>
+        </div>
+
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
