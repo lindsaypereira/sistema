@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard Clínica Dental</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+</head>
+<body>
+
+<div class="sidebar">
+
+    <div class="logo">
+        <i class="bi bi-people-fill"></i>
+        <h2>Clinica Dental Grace</h2>
+    </div>
+
+  <ul>
+  <li><a href="#dashboard"><i class="bi bi-grid"></i> Dashboard</a></li>
+  <li><a href="#pacientes"><i class="bi bi-people"></i> Pacientes</a></li>
+  <li><a href="#citas"><i class="bi bi-calendar-check"></i> Citas</a></li>
+  <li><a href="#facturacion"><i class="bi bi-cash-stack"></i> Facturación</a></li>
+</ul>
+
+</div>
+
+
+
+<div class="main">
+
+    <header>
+
+        <div>
+            <h1>Dashboard Principal</h1>
+            <p>Bienvenido al sistema de gestión clínica</p>
+        </div>
+
+        <div class="perfil">
+           
+            <span>Dr. Lindsay</span>
+            <div class="icono">
+                <i class="bi bi-people"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="cards">
+
+        <div class="card azul">
+            <div class="icono">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <h3>Pacientes</h3>
+            <h2>1,245</h2>
+        </div>
+
+        <div class="card verde">
+            <div class="icono">
+                <i class="bi bi-calendar2-check-fill"></i>
+            </div>
+            <h3>Citas Hoy</h3>
+            <h2>34</h2>
+        </div>
+
+        <div class="card morado">
+            <div class="icono">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <h3>Tratamientos</h3>
+            <h2>89</h2>
+        </div>
+
+        <div class="card naranja">
+            <div class="icono">
+                <i class="bi bi-cash-coin"></i>
+            </div>
+            <h3>Ingresos</h3>
+            <h2>C$12,500</h2>
+        </div>
+
+    </section>
+
+    <section class="contenido">
+
+        <div class="tabla">
+
+            <h2>Próximas Citas</h2>
+
+            <table>
+
+                <tr>
+                    <th>Paciente</th>
+                    <th>Hora</th>
+                    <th>Doctor</th>
+                    <th>Estado</th>
+                </tr>
+
+                <tr>
+                    <td>María López</td>
+                    <td>09:00 AM</td>
+                    <td>Dr. Pérez</td>
+                    <td><span class="estado">Confirmada</span></td>
+                </tr>
+
+                <tr>
+                    <td>Juan García</td>
+                    <td>10:30 AM</td>
+                    <td>Dr. Pérez</td>
+                    <td><span class="estado">Confirmada</span></td>
+                </tr>
+
+                <tr>
+                    <td>Ana Ruiz</td>
+                    <td>12:00 PM</td>
+                    <td>Dr. López</td>
+                    <td><span class="estado">Pendiente</span></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="resumen">
+
+            <h2>Resumen</h2>
+
+            <div class="dato">
+                <span>Nuevos pacientes</span>
+                <strong>48</strong>
+            </div>
+
+            <div class="dato">
+                <span>Tratamientos activos</span>
+                <strong>120</strong>
+            </div>
+
+            <div class="dato">
+                <span>Citas completadas</span>
+                <strong>320</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
